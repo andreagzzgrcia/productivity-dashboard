@@ -1,14 +1,14 @@
 # Productivity Dashboard
 
-A productivity dashboard I designed for **Mucho gusto**, a Mexican specialty-coffee company: 11 workstreams, 53 planned tasks, a critical path, documents and reminders, dated back from a first-sale target of 1 April 2027.
+A personal productivity dashboard: workstreams, a task board, a critical path, documents and reminders.
 
-I designed the workflow, the categories and the interface, and built the tool with AI assistants I direct. This public copy uses the **seeded roadmap only**. It does not contain real supplier or client contacts, visit notes, documents, emails, phone numbers or access credentials. Statuses in the seed start as “Por hacer”; any live progress stays on the private deploy.
+I designed the workflow, the categories and the interface, and built the tool with AI assistants I direct. This public copy is a **fictional example** (a made-up professional conference, “Cumbre Meridian”, with a sample target date of 15 September 2027). It does not contain a real brand, real tasks, supplier or client contacts, visit notes, documents, emails, phone numbers or access credentials. Statuses in the seed start as “Por hacer”; any live progress stays on the private deploy.
 
-Live demo (seed data): [GitHub Pages](https://andreagzzgrcia.github.io/productivity-dashboard/)
+Live demo (example data only): [GitHub Pages](https://andreagzzgrcia.github.io/productivity-dashboard/)
 
 ## What it does
 
-- **Eleven workstreams**, from company formation and Mexican coffee suppliers to import logistics, product, sales and financing.
+- **Eleven workstreams** for a sample conference launch (organisation, programme, speakers, venue, registrations, and so on).
 - **Task board** with statuses *Por hacer*, *En curso* (capped at 3 at a time), *Bloqueada* and *Hecha*, priorities, start and due dates, and a critical-path flag.
 - **Overview** with progress, upcoming deadlines and the next actions on the critical path.
 - **Notes and documents** attached to a task or a category (documents stay in the saved state, up to 2 MB each).
@@ -42,4 +42,4 @@ Never commit `.secret` or `wrangler.toml`.
 
 ## License
 
-MIT. The seeded tasks describe a planned launch; they are not a record of real contracts, contacts or financial figures.
+MIT. The seeded tasks describe a fictional example project; they are not a record of a real launch, contracts, contacts or financial figures.
