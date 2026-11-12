@@ -1,0 +1,14 @@
+# Secrets and private deployment
+.secret
+.dev.vars
+.env
+.env.*
+wrangler.toml
+.wrangler/
+
+# Local
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+*.bak

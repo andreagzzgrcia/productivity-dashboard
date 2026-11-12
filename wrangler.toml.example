@@ -1,0 +1,19 @@
+# Copy to wrangler.toml when publishing. Fill in your own KV namespace id.
+# Do not put API tokens or account IDs in this file, and do not commit wrangler.toml.
+name = "productivity-dashboard"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.html"]
+fallthrough = true
+
+[[rules]]
+type = "Data"
+globs = ["**/*.png"]
+fallthrough = true
+
+[[kv_namespaces]]
+binding = "KV"
+id = "<KV_NAMESPACE_ID>"
